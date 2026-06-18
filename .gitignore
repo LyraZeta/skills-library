@@ -6,6 +6,11 @@ outputs/
 node_modules/
 tmp/
 
+# Local project automation kept outside the public skills library.
+/zemax_api/
+/tracepro_api/
+/requirements.txt
+
 # Local optical design/customer project files should not be published by default.
 *.zos
 *.zmx
