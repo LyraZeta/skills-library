@@ -5,6 +5,9 @@ __pycache__/
 outputs/
 node_modules/
 tmp/
+.env
+*.token
+github_token.txt
 
 # Local project automation kept outside the public skills library.
 /zemax_api/
