@@ -9,6 +9,7 @@ source code, and examples.
 | Skill | Purpose |
 | --- | --- |
 | [`zemax-zos-api`](skills/zemax-zos-api/SKILL.md) | Connect Python automation to Ansys Zemax OpticStudio through ZOS-API. |
+| [`tracepro-oml-db-audit`](skills/tracepro-oml-db-audit/SKILL.md) | Audit TracePro OML files and TracePro property databases without guessing internal coating codes. |
 
 ## Repository Rules
 

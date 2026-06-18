@@ -18,6 +18,7 @@ machine-specific credentials in this directory.
 | Skill | Purpose | Platform |
 | --- | --- | --- |
 | [`zemax-zos-api`](zemax-zos-api/SKILL.md) | Connect to Ansys Zemax OpticStudio through ZOS-API from Python. | Windows, OpticStudio, 64-bit Python |
+| [`tracepro-oml-db-audit`](tracepro-oml-db-audit/SKILL.md) | Audit TracePro OML attribute tokens and TracePro SQLite property databases without guessing internal coating codes. | Windows recommended, Python 3.10+ |
 
 ## Suggested Layout For Future Skills
 

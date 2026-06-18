@@ -8,6 +8,14 @@
       "description": "Connect Python automation to Ansys Zemax OpticStudio through ZOS-API.",
       "platform": ["windows"],
       "requires": ["Ansys Zemax OpticStudio", "64-bit Python", "pythonnet"]
+    },
+    {
+      "id": "tracepro-oml-db-audit",
+      "name": "TracePro OML/DB Audit",
+      "path": "skills/tracepro-oml-db-audit",
+      "description": "Audit TracePro OML attribute tokens and TracePro SQLite property databases without guessing internal coating codes.",
+      "platform": ["windows", "python"],
+      "requires": ["Python 3.10+", "TracePro OML file", "optional TracePro.db"]
     }
   ]
 }
