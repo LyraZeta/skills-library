@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "skills": [
+    {
+      "id": "zemax-zos-api",
+      "name": "Zemax ZOS-API Connection",
+      "path": "skills/zemax-zos-api",
+      "description": "Connect Python automation to Ansys Zemax OpticStudio through ZOS-API.",
+      "platform": ["windows"],
+      "requires": ["Ansys Zemax OpticStudio", "64-bit Python", "pythonnet"]
+    }
+  ]
+}

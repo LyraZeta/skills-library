@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+node_modules/
+tmp/
+
+# Local optical design/customer project files should not be published by default.
+*.zos
+*.zmx
+*.zda
+*.zar
+*.oml
+*.seq
+*.dat
+*.agf
+*.bsdf
+*.sdf
+
+# Generated documents and transient reports.
+*.docx
+*.pdf
+*.xlsx
+*.csv
+*.png
+*.jpg
+*.jpeg
