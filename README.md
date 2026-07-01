@@ -10,6 +10,7 @@ source code, and examples.
 | --- | --- |
 | [`zemax-zos-api`](skills/zemax-zos-api/SKILL.md) | Connect Python automation to Ansys Zemax OpticStudio through ZOS-API. |
 | [`tracepro-oml-db-audit`](skills/tracepro-oml-db-audit/SKILL.md) | Audit TracePro OML files and TracePro property databases without guessing internal coating codes. |
+| [`aqvision-aqcfg-converter`](skills/aqvision-aqcfg-converter/SKILL.md) | Convert legacy AQVision .aqcfg example projects into AQVision 2.5.x .aqproj files and repair broken image-directory/global-variable links. |
 
 ## Repository Rules
 
