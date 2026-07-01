@@ -1,4 +1,4 @@
-{
+﻿{
   "schema_version": "1.0",
   "skills": [
     {
@@ -16,6 +16,14 @@
       "description": "Audit TracePro OML attribute tokens and TracePro SQLite property databases without guessing internal coating codes.",
       "platform": ["windows", "python"],
       "requires": ["Python 3.10+", "TracePro OML file", "optional TracePro.db"]
+    },
+    {
+      "id": "aqvision-aqcfg-converter",
+      "name": "AQVision AQCFG Converter",
+      "path": "skills/aqvision-aqcfg-converter",
+      "description": "Convert legacy AQVision .aqcfg example projects into AQVision 2.5.x .aqproj files and repair broken image-directory/global-variable links.",
+      "platform": ["windows", "dotnet-framework", "powershell"],
+      "requires": ["AQVision 2.5.x installation", "x64 .NET Framework 4 compiler", "legacy .aqcfg files"]
     }
   ]
 }
