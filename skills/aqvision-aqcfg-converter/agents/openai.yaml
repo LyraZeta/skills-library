@@ -1,0 +1,4 @@
+interface:
+  display_name: "AQVision AQCFG Converter"
+  short_description: "Convert AQVision aqcfg projects to aqproj."
+  default_prompt: "Use $aqvision-aqcfg-converter to convert AQVision .aqcfg examples into .aqproj projects and fix broken image-link paths."
