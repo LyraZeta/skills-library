@@ -19,6 +19,8 @@ machine-specific credentials in this directory.
 | --- | --- | --- |
 | [`zemax-zos-api`](zemax-zos-api/SKILL.md) | Connect to Ansys Zemax OpticStudio through ZOS-API from Python. | Windows, OpticStudio, 64-bit Python |
 | [`tracepro-oml-db-audit`](tracepro-oml-db-audit/SKILL.md) | Audit TracePro OML attribute tokens and TracePro SQLite property databases without guessing internal coating codes. | Windows recommended, Python 3.10+ |
+| [`aqvision-aqcfg-converter`](aqvision-aqcfg-converter/SKILL.md) | Convert legacy AQVision .aqcfg example projects into AQVision 2.5.x .aqproj files and repair broken image-directory/global-variable links. | Windows, .NET Framework, PowerShell |
+| [`codex-vscode-remote-fix`](codex-vscode-remote-fix/SKILL.md) | Repair VS Code Remote-SSH Codex reconnect loops caused by bundled CLI environment and third-party API provider configuration issues. | Remote Linux, VS Code Server, Bash, systemd user units |
 
 ## Suggested Layout For Future Skills
 

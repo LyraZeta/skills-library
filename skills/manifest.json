@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.0",
   "skills": [
     {
@@ -24,6 +24,14 @@
       "description": "Convert legacy AQVision .aqcfg example projects into AQVision 2.5.x .aqproj files and repair broken image-directory/global-variable links.",
       "platform": ["windows", "dotnet-framework", "powershell"],
       "requires": ["AQVision 2.5.x installation", "x64 .NET Framework 4 compiler", "legacy .aqcfg files"]
+    },
+    {
+      "id": "codex-vscode-remote-fix",
+      "name": "Codex VS Code Remote Fix",
+      "path": "skills/codex-vscode-remote-fix",
+      "description": "Repair VS Code Remote-SSH Codex reconnect loops caused by bundled CLI environment and third-party API provider configuration issues.",
+      "platform": ["linux", "vscode-remote-ssh", "bash", "systemd-user"],
+      "requires": ["Remote Linux host", "VS Code Server openai.chatgpt extension", "OpenAI-compatible API key", "optional systemd user services"]
     }
   ]
 }

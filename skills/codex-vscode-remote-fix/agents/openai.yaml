@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex VS Code Remote Fix"
+  short_description: "Fix Codex reconnect loops in VS Code Remote-SSH."
+  default_prompt: "Use $codex-vscode-remote-fix to diagnose and repair a VS Code Remote-SSH Codex panel that keeps reconnecting or spinning with a custom OpenAI-compatible API."
